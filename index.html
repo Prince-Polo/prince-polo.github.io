@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Liye Wang is a computer science undergraduate at Tsinghua University studying the computational complexity of sampling and diffusion models.">
+  <meta name="theme-color" content="#f8f7f2">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Liye Wang">
+  <meta property="og:description" content="Computer science undergraduate at Tsinghua University. Research in sampling and diffusion theory.">
+  <title>Liye Wang</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="page-width header-inner">
+      <a class="site-name" href="#top">Liye Wang</a>
+      <nav aria-label="Main navigation">
+        <a href="#research">Research</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page-width" tabindex="-1">
+    <section class="intro" id="top" aria-labelledby="name">
+      <div class="intro-copy">
+        <h1 id="name">Liye Wang</h1>
+        <p class="affiliation">Tsinghua University <span aria-hidden="true">·</span> Yao Class</p>
+        <div class="bio">
+          <p>I’m a fourth-year computer science undergraduate in the <a href="https://iiis.tsinghua.edu.cn/en/Yao_Class/About_Yao_Class.htm">Yao Class</a> at Tsinghua University. I study the computational complexity of sampling, especially how much parallelism diffusion models can achieve. I’m also interested in high-dimensional statistics and statistical learning theory.</p>
+          <p>From February to August 2026, I was a visiting undergraduate research intern at <a href="https://seas.harvard.edu/">Harvard SEAS</a>, where I worked with <a href="https://www.sitanchen.com/">Sitan Chen</a>.</p>
+        </div>
+        <p class="profile-links"><a href="./assets/cv.pdf">CV</a></p>
+      </div>
+      <!-- Replace assets/portrait.jpg with your photo and set alt="Liye Wang". -->
+      <img class="portrait" src="./assets/portrait.jpg" alt="" width="400" height="400">
+    </section>
+
+    <section class="section research-section" id="research" aria-labelledby="research-heading">
+      <h2 id="research-heading">Research</h2>
+      <article class="paper">
+        <div class="paper-type"><time datetime="2026-09-17">2026</time><span>arXiv preprint</span></div>
+        <div class="paper-body">
+          <h3><a href="https://arxiv.org/abs/2609.20539">Parallelism, critical windows, and separations among diffusion language models</a></h3>
+          <p class="authors">Sitan Chen and <span class="author-self">Liye Wang</span></p>
+          <p class="paper-summary">For a family of distributions on sequences of length
+            <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>d</mi><annotation encoding="application/x-tex">d</annotation></semantics></math>,
+            uniform and Gaussian diffusion take roughly
+            <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msqrt><mi>d</mi></msqrt><annotation encoding="application/x-tex">\sqrt{d}</annotation></semantics></math>
+            forward passes, while masked diffusion can need nearly
+            <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>d</mi><annotation encoding="application/x-tex">d</annotation></semantics></math>
+            with an approximate score oracle. The separation comes from the narrower range of noise levels
+            at which information about the sample emerges under masked diffusion.
+          </p>
+          <div class="paper-links">
+            <a href="https://arxiv.org/abs/2609.20539">arXiv</a>
+            <a href="https://arxiv.org/pdf/2609.20539">PDF</a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <div class="secondary-sections">
+      <section class="section" id="teaching" aria-labelledby="teaching-heading">
+        <h2 id="teaching-heading">Teaching</h2>
+        <p class="course">Linear Algebra</p>
+        <p>Teaching assistant, Yao Class, Tsinghua University<br>Fall 2025 and Fall 2026</p>
+      </section>
+      <section class="section" id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <p class="email">ly-wang23 (at) mails (dot) tsinghua (dot) edu (dot) cn</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer page-width">
+    <p>© 2026 Liye Wang</p>
+  </footer>
+</body>
+</html>
