@@ -19,7 +19,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font: 1.0625rem/1.65 var(--sans);
+  font: 1.25rem/1.65 var(--sans);
 }
 
 a {
@@ -91,7 +91,7 @@ nav {
 nav a {
   color: var(--muted);
   padding-block: 0.45rem;
-  font-size: 0.9375rem;
+  font-size: 1rem;
   font-weight: 500;
   text-decoration: none;
 }
@@ -208,7 +208,7 @@ h3 a:hover {
 .authors {
   margin-top: 0.53rem;
   color: var(--muted);
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .author-self { font-weight: 500; }
