@@ -19,7 +19,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font: 0.9375rem/1.65 var(--sans);
+  font: 1.0625rem/1.65 var(--sans);
 }
 
 a {
@@ -122,11 +122,12 @@ h1 {
 .affiliation {
   margin-top: 0.6rem;
   color: var(--accent);
-  font-size: 0.875rem;
+  font-size: 1.2rem;
   font-weight: 650;
 }
 
-.affiliation span { margin-inline: 0.27rem; }
+.class-affiliation { white-space: nowrap; }
+.affiliation-divider { margin-inline: 0.27rem; }
 
 .bio {
   margin-top: 1.15rem;
@@ -137,7 +138,6 @@ h1 {
 
 .profile-links {
   margin-top: 0.9rem;
-  font-size: 0.875rem;
   font-weight: 600;
 }
 
@@ -163,9 +163,14 @@ h2 {
   line-height: 1.12;
 }
 
+.current-research {
+  max-width: 45rem;
+  margin-top: 0.75rem;
+}
+
 .paper {
   display: grid;
-  grid-template-columns: 5.5rem minmax(0, 1fr);
+  grid-template-columns: 7rem minmax(0, 1fr);
   gap: 1.1rem;
   margin-top: 1.25rem;
 }
@@ -175,7 +180,7 @@ h2 {
   flex-direction: column;
   padding-top: 0.1rem;
   color: var(--muted);
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1.55;
 }
 
@@ -203,7 +208,7 @@ h3 a:hover {
 .authors {
   margin-top: 0.53rem;
   color: var(--muted);
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 .author-self { font-weight: 500; }
@@ -218,7 +223,7 @@ h3 a:hover {
   flex-wrap: wrap;
   gap: 1.1rem;
   margin-top: 0.55rem;
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-weight: 650;
 }
 
@@ -233,7 +238,6 @@ h3 a:hover {
 .secondary-sections p {
   margin-top: 0.4rem;
   color: var(--muted);
-  font-size: 0.875rem;
 }
 
 .secondary-sections h2 + p { margin-top: 0.9rem; }
@@ -286,4 +290,9 @@ h3 a:hover {
     grid-template-columns: 1fr;
     gap: 0;
   }
+}
+
+@media (max-width: 360px) {
+  .class-affiliation { display: block; }
+  .affiliation-divider { display: none; }
 }
