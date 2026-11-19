@@ -296,3 +296,17 @@ h3 a:hover {
   .class-affiliation { display: block; }
   .affiliation-divider { display: none; }
 }
+
+.research-section .paper {
+  display: block;
+}
+
+.research-section .paper h3 {
+  width: auto;
+  max-width: none;
+  margin: 0 0 0.3rem;
+}
+
+.research-section .paper .authors {
+  margin: 0 0 0.5rem;
+}
