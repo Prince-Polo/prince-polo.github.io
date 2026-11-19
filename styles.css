@@ -100,7 +100,7 @@ nav a:hover { text-decoration: underline; }
 
 .intro {
   display: grid;
-  grid-template-columns: minmax(0, 36rem) clamp(7rem, 15vw, 10rem);
+  grid-template-columns: minmax(0, 36rem) clamp(9rem, 21vw, 15rem);
   justify-content: space-between;
   gap: clamp(1.5rem, 5vw, 4rem);
   align-items: start;
@@ -145,7 +145,7 @@ h1 {
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: 1;
+  aspect-ratio: auto;
   object-fit: cover;
   margin-top: 0.2rem;
   border: 1px solid var(--line);
@@ -268,7 +268,7 @@ h3 a:hover {
   nav { column-gap: 0.5rem; }
   nav a { font-size: 0.875rem; }
   .intro { grid-template-columns: 1fr; gap: 1rem; }
-  .portrait { width: 6rem; }
+  .portrait { width: min(100%, 10rem); }
 
   .paper {
     grid-template-columns: 1fr;
